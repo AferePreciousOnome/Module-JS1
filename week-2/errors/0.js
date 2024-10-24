@@ -4,6 +4,13 @@
 // interpret the error message and figure out why it's happening, if your prediction was wrong
 
 function capitalise(str) {
-  let str = `${str[0].toUpperCase()}${str.slice(1)}`;
+  str = `${str[0].toUpperCase()}${str.slice(1)}`;
   return str;
 }
+console.log("string input", `${capitalise("I am happy")}`);
+
+//Answer:
+// Identifier 'str' has already been declared
+//There's no need declaring it again.
+//When you fix the syntax error, a Reference error appears because it will try to access str outside the function
+//where it was not defined.
