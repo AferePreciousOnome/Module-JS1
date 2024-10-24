@@ -26,18 +26,23 @@ console.log(formatTimeDisplay(143));
 // Questions
 
 // a) When formatTimeDisplay is called how many times will pad be called?
+//Answer:3 times
 
 // Call formatTimeDisplay with an input of 143, now answer the following:
 
 // b) What value is assigned to the parameter num when pad is called for the first time?
+//Answer: 23 which is the seconds
 
 // c) What is the return value of pad when it is called for the first time?
+//Answer: The return value of the pad when its called for the first time is 23
 
 // d) What is the value assigned to the parameter num when pad
-// is called for the last time in this program?  Explain your answer
+// is called for the last time in this program?  Explain your answer from totalHours
 
 // e) What is the return value when pad is called
 // for the last time in this program?  Explain your answer
+//Answer : 00 , The last pad returns the 00 when formatting zero hours.
 
 // f) Research an alternative way of padding the numbers in this code.
 // Look up the string functions on mdn
+//Answer instead of using the pad function we can use the String prototype padStart(), it is an in-build function
